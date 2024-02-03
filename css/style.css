@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(0, 153, 255), #fcb565);
+    min-height: 100vh;
+}
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon-gif {
+    inline-size: 25%;
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+}
