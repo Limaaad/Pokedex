@@ -31,3 +31,20 @@ main {
     bottom: 50%;
     left: 40%;
 }
+
+.poke-data {
+    position: absolute;
+    font-weight: 500;
+    font-size: 15px;
+    top: 56%;
+    right: 15vh;
+    font-size: clamp(8px, 2vw, 25px);
+}
+
+.poke-number {
+    color: crimson;
+}
+
+.poke-name {
+    text-transform: uppercase;
+}
