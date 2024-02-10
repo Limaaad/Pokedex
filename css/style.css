@@ -48,3 +48,19 @@ main {
 .poke-name {
     text-transform: uppercase;
 }
+
+.form {
+    position: absolute;
+    width: 70%;
+    top: 65%;
+    left: 10.5%;
+}
+
+.input-search {
+    width: 100%;
+    padding: 5%;
+    outline: none;
+    border-radius: 5px;
+    font-size: clamp(8px, 1vw, 1rem);
+    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
+}
